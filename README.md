@@ -1,9 +1,9 @@
 # MEOW FACTS
 
-![Alt Text](https://media1.tenor.com/images/730c85cb58041d4345404a67641fcd46/tenor.gif)
+![](https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif)
 
 ## Project Purpose
-This project will be a source for random facts about cats. Pretty simple site.
+This project will be a source for random facts about cats.
 
 ### API link
 https://alexwohlbruck.github.io/cat-facts/
@@ -16,7 +16,7 @@ https://alexwohlbruck.github.io/cat-facts/
 
 ## React Component Hierarchy
 
-## Helper Fucntions
+## Helper Functions
 
 ## Additional Libraries
 

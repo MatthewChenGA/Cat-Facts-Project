@@ -1,9 +1,9 @@
 # MEOW FACTS
 
-![](https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif)
+![Cat](https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif)
 
 ## Project Purpose
-This project will be a source for random facts about cats.
+This project will be a source for random facts about cats. User will click a button that will give a random cat fact. 
 
 ### API link
 https://alexwohlbruck.github.io/cat-facts/
@@ -13,12 +13,16 @@ https://alexwohlbruck.github.io/cat-facts/
 - Render the data, the cat facts
 
 ## PostMVP
+- Animations on various elements of page
+- Another API utilization
 
 ## React Component Hierarchy
 
 ## Helper Functions
 
 ## Additional Libraries
+- npm axios 
+- react-router-dom
 
 ## Code Snippet
 
@@ -27,7 +31,7 @@ https://alexwohlbruck.github.io/cat-facts/
 ## Wireframes
 
 
-<img width="974" alt="wireframe" src="https://media.git.generalassemb.ly/user/20473/files/00629480-f1a1-11e9-8ceb-4c9de10b64ef">
+<img width="970" alt="wireframe" src="https://media.git.generalassemb.ly/user/20473/files/00629480-f1a1-11e9-8ceb-4c9de10b64ef">
 
 
-<img width="984" alt="wireframe1" src="https://media.git.generalassemb.ly/user/20473/files/18d2af00-f1a1-11e9-89b7-676a4cd4b347">
+<img width="970" alt="Wireframe1" src="https://user-images.githubusercontent.com/50682454/67121356-4d526500-f1b9-11e9-8217-868cda8c524d.png">

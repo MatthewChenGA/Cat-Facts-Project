@@ -1,6 +1,6 @@
 # MEOW FACTS
 
-<img src="https://media1.tenor.com/images/730c85cb58041d4345404a67641fcd46/tenor.gif" width="400" height="300">
+![Alt Text](https://media1.tenor.com/images/730c85cb58041d4345404a67641fcd46/tenor.gif)
 
 ## Project Purpose
 This project will be a source for random facts about cats. Pretty simple site.
@@ -26,5 +26,8 @@ https://alexwohlbruck.github.io/cat-facts/
 
 ## Wireframes
 
-<p>https://res.cloudinary.com/v3rymatt/image/upload/v1571414354/Project%20wireframes/Wireframe_gf0ek4.png</p>
-<p>https://res.cloudinary.com/v3rymatt/image/upload/v1571414354/Project%20wireframes/Wireframe1_pisnel.png</p>
+
+<img width="974" alt="wireframe" src="https://media.git.generalassemb.ly/user/20473/files/00629480-f1a1-11e9-8ceb-4c9de10b64ef">
+
+
+<img width="984" alt="wireframe1" src="https://media.git.generalassemb.ly/user/20473/files/18d2af00-f1a1-11e9-89b7-676a4cd4b347">

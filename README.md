@@ -17,6 +17,8 @@ https://alexwohlbruck.github.io/cat-facts/
 - Another API utilization
 
 ## React Component Hierarchy
+<img width="332" alt="component hierarchy" src="https://media.git.generalassemb.ly/user/20473/files/46c9ea80-f1c5-11e9-9862-c48f3438ac9a">
+
 
 ## Helper Functions
 

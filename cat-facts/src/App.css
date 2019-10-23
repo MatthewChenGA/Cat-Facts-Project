@@ -1,14 +1,33 @@
-* {
+/* GENERAL STYLES */
+body {
   font-family: 'Liu Jian Mao Cao', cursive;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.greenText {
+  color: green;
+}
+
+.redText {
+  color: red;
+}
+
+/* HEADER STYLES */
+
 header {
-  border: 2px solid black;
+  border-bottom: 2px solid black;
   height: 150px;
   width: 100%;
   display: flex;
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0; */
   background: linear-gradient(to right, rgb(223, 197, 176), rgb(150, 211, 196))
 }
 
@@ -28,32 +47,45 @@ header div {
   transform: rotate(1080deg) scale(1.6);
 }
 
+button {
+  width: 150px;
+  height: 40px;
+  background-color: lightblue;
+  font-size: 12px;
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+
+/* MAIN STYLES*/
+
 main {
-  border: 2px solid black;
-  height: 200px;
-  width: 40%;
-  margin-top: 20%;
-  margin-left: 30%;
+  min-height: 75vh;
 }
 
-main p {
-  font-size: 20px;
+#catfact, #randomfact p {
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
-.underline {
-  text-decoration-line: underline;
+#intro, #catfact, #randomfact {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 200px;
 }
 
-.greenText {
-  color: green;
-}
 
-.redText {
-  color: red;
-}
 
-/* footer {
-  border: 2px solid black;
+
+/* FOOTER STYLES */
+
+footer {
+  border-top: 2px solid black;
   width: 100%;
   padding-top: 20px;
-} */
+  text-align: center;
+}

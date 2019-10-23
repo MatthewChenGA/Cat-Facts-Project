@@ -10,7 +10,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      cat: []
+      cat: [],
+      selectedText: ''
     }
   }
 
@@ -22,13 +23,23 @@ class App extends React.Component {
     })
   }
 
+  handleChange = (selectedText) => {
+    this.setState({ selectedText });
+  }
+
+  handleSubmit = async () => {
+    const catFact = await catFact(this.state.selectedText);
+    this.setState({
+      catFact
+    })
+  }
+
   render() {
     return (
       <div className="App" >
-        <Header />
-        <main>
-
-        </main>
+        <Header href="index.html" logoSrc="https://github.githubassets.com/images/modules/logos_page/Octocat.png" />
+        <Main />
+        <ShowCat />
         <Footer />
       </div>
     );

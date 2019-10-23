@@ -2,16 +2,57 @@
   font-family: 'Liu Jian Mao Cao', cursive;
 }
 
-/* header {
+header {
   border: 2px solid black;
-  height: 100px;
+  height: 150px;
   width: 100%;
   display: flex;
   position: fixed;
   top: 0;
+  background: linear-gradient(to right, rgb(223, 197, 176), rgb(150, 211, 196))
 }
 
-footer {
+header div {
+  margin-left: 15%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 100px;
+  transition: transform 2s ease-in-out;
+}
+
+#logo:hover {
+  transform: rotate(1080deg) scale(1.6);
+}
+
+main {
+  border: 2px solid black;
+  height: 200px;
+  width: 40%;
+  margin-top: 20%;
+  margin-left: 30%;
+}
+
+main p {
+  font-size: 20px;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.greenText {
+  color: green;
+}
+
+.redText {
+  color: red;
+}
+
+/* footer {
   border: 2px solid black;
   width: 100%;
   padding-top: 20px;

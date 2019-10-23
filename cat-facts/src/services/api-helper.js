@@ -7,5 +7,5 @@ export const getCatFacts = async () => {
 
 // export const getOtherFacts = async () => {
 //   const response = await axios.get("https://flynn-cors.herokuapp.com/https://cat-fact.herokuapp.com/facts/random?animal_type=horse,snail,dog&amount=1")
-//   return response.data
+//   return response.data.text
 // }

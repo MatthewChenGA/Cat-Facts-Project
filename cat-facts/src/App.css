@@ -69,11 +69,11 @@ main {
 }
 
 button {
-  width: 150px;
+  width: 185px;
   height: 40px;
   background-color: lightblue;
-  font-size: 12px;
-  margin: 10px;
+  font-size: 14px;
+  margin: 15px;
 }
 
 button:hover {

@@ -7,7 +7,7 @@ export default function CatFact(props) {
 
       <button onClick={props.handleClick}>More Cat Facts!</button>
       <Link to="/randomfact">
-        <button onClick={props.randomHandleClick}>Random Animal Fact</button>
+        <button onClick={props.handleRandomClick}>Random Animal Fact</button>
       </Link>
       <p>{props.catfact}</p>
     </div>

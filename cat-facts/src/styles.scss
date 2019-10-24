@@ -21,11 +21,14 @@ body.dark-mode {
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: absolute;
+  top: 50px;
+  left: 70%;
+  width: 200px;
+  height: 50px;
   display: flex;
-  background-color: #95d3ff;
+  flex-direction: column;
+  // background-color: rgba(214, 171, 171, 0.9);
   padding: 20px;
 }
 
@@ -90,4 +93,4 @@ input[type='checkbox'].dmcheck {
     opacity: 0.9;
     background-color: #f6f6f6;
   }
-}
+} 

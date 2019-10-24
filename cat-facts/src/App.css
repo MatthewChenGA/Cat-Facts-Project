@@ -23,11 +23,10 @@ body {
 
 header {
   border-bottom: 2px solid black;
-  height: 150px;
+  height: 200px;
   width: 100%;
   display: flex;
-  /* position: fixed; */
-  /* top: 0; */
+  top: 0;
   background: linear-gradient(to right, rgb(223, 197, 176), rgb(150, 211, 196))
 }
 
@@ -38,6 +37,10 @@ header div {
   align-items: center;
 }
 
+header h1 {
+  margin-top: 6%;
+}
+
 #logo {
   width: 100px;
   transition: transform 2s ease-in-out;
@@ -45,19 +48,6 @@ header div {
 
 #logo:hover {
   transform: rotate(1080deg) scale(1.6);
-}
-
-button {
-  width: 150px;
-  height: 40px;
-  background-color: lightblue;
-  font-size: 12px;
-  margin: 10px;
-}
-
-button:hover {
-  cursor: pointer;
-  opacity: 0.9;
 }
 
 
@@ -78,13 +68,29 @@ main {
   padding-top: 200px;
 }
 
+button {
+  width: 150px;
+  height: 40px;
+  background-color: lightblue;
+  font-size: 12px;
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 
 
 
 /* FOOTER STYLES */
 
 footer {
-  border-top: 2px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: rgb(226, 211, 211);
+  border-top: 1px solid black;
   width: 100%;
   padding-top: 20px;
   text-align: center;

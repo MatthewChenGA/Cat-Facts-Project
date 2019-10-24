@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './styles.scss';
+
 import { getCatFacts, getOtherFacts } from './services/api-helper';
 import { Route } from 'react-router-dom';
 import Header from './components/Header';
@@ -8,7 +10,9 @@ import Main from './components/Main';
 import CatFact from './components/CatFact';
 import RandomFact from './components/RandomFact';
 import DarkModeToggle from './components/DarkModeToggle';
-import './styles.scss';
+
+// Thanks to https://github.com/donavon/use-dark-mode for "Dark Mode Toggle function".
+
 
 class App extends React.Component {
   constructor(props) {
@@ -60,3 +64,4 @@ class App extends React.Component {
 }
 
 export default App;
+

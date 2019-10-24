@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 import Main from './components/Main';
 import CatFact from './components/CatFact';
 import RandomFact from './components/RandomFact';
+import DarkModeToggle from './components/DarkModeToggle';
+import './styles.scss';
 
 class App extends React.Component {
   constructor(props) {
@@ -32,7 +34,6 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.randomfact)
     return (
       <div className="App" >
         <Header logoSrc="https://github.githubassets.com/images/modules/logos_page/Octocat.png" />
@@ -48,6 +49,9 @@ class App extends React.Component {
           <Route path="/randomfact" render={() => (
             <RandomFact randomfact={this.state.randomfact} handleRandomClick={this.handleRandomClick} handleClick={this.handleClick} />
           )} />
+          <div className="navbar">
+            <DarkModeToggle />
+          </div>
         </main>
         <Footer />
       </div>
